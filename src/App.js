@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Backtop from "./components/Backtop";
+import Feedback from "./components/Feedback";
+import Fly from "./components/Fly";
+import Footer from "./components/Footer";
+import Locationbtn from "./components/Locationbtn";
+import Locationsbutn from "./components/Locationsbutn";
+import Memories from "./components/Memories";
+import MyNav from "./components/MyNav";
+import Newsletter from "./components/Newsletter";
+import OurFeature from "./components/OurFeature";
+import PreLoad from "./components/Preload";
+import Tickets from "./components/Tickets";
+import Travelers from "./components/Travelers";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Backtop />
+      <PreLoad />
+      <MyNav />
+      {/* <Locationbtn /> */}
+      <Locationsbutn />
+      <OurFeature />
+      <Fly />
+      <Tickets />
+      <Travelers />
+      <Feedback />
+      <Memories />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }

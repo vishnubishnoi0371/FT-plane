@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* navvv */
+.nav_set {
+  width: 100%;
+  height: 100%;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 0;
+  right: 100%;
+  background: #010223;
+  z-index: 5;
+}
+@media (min-width: 1024px) {
+  .nav_set {
+    width: unset;
+    flex-direction: row;
+    height: unset;
+    position: unset;
+    background: transparent;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.img_border::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+  border: 20px solid #ffffff4d;
+  top: 0;
+  left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dotted {
+  width: 355px;
+  max-width: 100%;
+  border: 1px dashed gray;
+}
+.tab {
+  background: #313ef7;
+  color: #fff;
+  -webkit-text-stroke: 1px;
+  border: 1px transparent;
+}
+.crd_sh_1 {
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05) !important;
+}
+.Ticket_sh {
+  bottom: 2%;
+  right: 12%;
+}
+.dot_1 {
+  left: -1%;
+  bottom: 35%;
+  background: #010223;
+}
+.dot_2 {
+  right: 20%;
+  bottom: 35%;
+  background: #252642;
+}
+.slide_crd {
+  width: 390px;
+  max-width: 100% !important;
+  /* height: 505px; */
+}
+/* plane */
+.plane_move {
+  animation: move 5s linear;
+}
+@keyframes move {
+  0% {
+    left: 50%;
+    width: 20%;
   }
-  to {
-    transform: rotate(360deg);
+
+  20% {
+    left: 50%;
+    width: 40%;
   }
+
+  40% {
+    left: 50%;
+    top: -60%;
+    width: 60%;
+  }
+  60% {
+    left: 50%;
+    top: -40%;
+    width: 80%;
+  }
+
+  80% {
+    left: 50%;
+    top: 100%;
+    width: 100%;
+  }
+  100% {
+    left: 50%;
+    top: 100%;
+    width: 100%;
+  }
+}
+
+/* slide */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
