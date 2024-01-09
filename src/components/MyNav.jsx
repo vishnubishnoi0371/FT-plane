@@ -29,7 +29,7 @@ const MyNav = () => {
           </div>
           <ul
             className={`${
-              first ? "start-0" : "start-100"
+              first ? "left-0" : "left-[-100%]"
             } flex items-center fixed z-40  ps-0 gap-[50px] duration-500   nav_set`}
           >
             <li className="list-none cursor-pointer text-white text-base fw-semibold font-ff-mon leading-7 not-italic relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#313EF7] hover:text-[#313EF7] before:contents'' hover:before:w-full hover:before:right-0">

@@ -111,6 +111,7 @@
     height: unset;
     position: unset;
     background: transparent;
+    transition: all 350ms linear !important;
   }
 }
 .st_hvr:hover svg path {
