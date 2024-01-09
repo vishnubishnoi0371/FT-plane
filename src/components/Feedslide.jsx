@@ -12,7 +12,7 @@ import { Arrow_1, Arrow_2 } from "../Commonsvg/icon";
 const CustomPrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="xs:p-[15px_20px] p-[10px_15px] rounded-full duration-300 sliderbutton bg-[#DADCF1] hover:bg-[#313EF7] absolute bottom-[-30%] left-[40%]"
+    className="xs:p-[15px_20px] st_hvr p-[10px_15px] rounded-full duration-300 sliderbutton bg-[#DADCF1] hover:bg-[#313EF7] absolute bottom-[-30%] left-[40%]"
   >
     <Arrow_1 />
   </button>
@@ -21,7 +21,7 @@ const CustomPrevArrow = ({ onClick }) => (
 const CustomNextArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="xs:p-[15px_20px] p-[10px_15px] rounded-full bg-[#DADCF1] duration-300 sliderbutton hover:bg-[#313EF7] absolute bottom-[-30%] left-[60%]"
+    className="xs:p-[15px_20px] st_hvr p-[10px_15px] rounded-full bg-[#DADCF1] duration-300 sliderbutton hover:bg-[#313EF7] absolute bottom-[-30%] left-[60%]"
   >
     <Arrow_2 />
   </button>
