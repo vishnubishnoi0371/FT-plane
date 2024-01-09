@@ -15,7 +15,7 @@ const PreLoad = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setLoad(true);
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "";
     }, 2500);
 
     return () => clearTimeout(delay);

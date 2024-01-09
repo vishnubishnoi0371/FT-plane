@@ -1,9 +1,8 @@
 import "./App.css";
 import Backtop from "./components/Backtop";
-import Feedback from "./components/Feedback";
+import Feedslide from "./components/Feedslide";
 import Fly from "./components/Fly";
 import Footer from "./components/Footer";
-import Locationbtn from "./components/Locationbtn";
 import Locationsbutn from "./components/Locationsbutn";
 import Memories from "./components/Memories";
 import MyNav from "./components/MyNav";
@@ -19,13 +18,12 @@ function App() {
       <Backtop />
       <PreLoad />
       <MyNav />
-      {/* <Locationbtn /> */}
       <Locationsbutn />
       <OurFeature />
       <Fly />
       <Tickets />
       <Travelers />
-      <Feedback />
+      <Feedslide/>
       <Memories />
       <Newsletter />
       <Footer />

@@ -123,8 +123,8 @@ const Tickets = () => {
                   <Aro_2 />
                 </span>
               </div>
-              <span className="w-[35px] h-[35px] hidden lg:block rounded-full  absolute dot_1"></span>
-              <span className="w-[35px] h-[35px] hidden lg:block rounded-full  absolute dot_2"></span>
+              <span className="w-[25px] sm:w-[35px] h-[25px] sm:h-[35px] sm:hidden lg:block rounded-full  absolute dot_1"></span>
+              <span className="w-[25px] sm:w-[35px] h-[25px] sm:h-[35px] sm:hidden lg:block rounded-full  absolute dot_2"></span>
             </div>
           </div>
         </div>

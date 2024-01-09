@@ -16,7 +16,8 @@ module.exports = {
         btn_sh_2: "0px 100px 200px 0px rgba(1, 23, 54, 0.10)",
       },
       screens: {
-        xs: "560px",
+        xs: "310px",
+        xs_2: "570px",
         900: "900px",
         xxs: "450px",
       },

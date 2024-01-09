@@ -62,7 +62,7 @@ const Footer = () => {
                     Address
                   </p>
                   <ul>
-                    <li className="pb-[15px] ">
+                    <li className="sm:pb-[15px] ">
                       <a
                         href=""
                         className="text-base font-normal relative font-ff-mon leading-[24px] not-italic text-[#A7A7A7]  before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -70,7 +70,7 @@ const Footer = () => {
                         Integrations{" "}
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -78,7 +78,7 @@ const Footer = () => {
                         Hello{" "}
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -86,7 +86,7 @@ const Footer = () => {
                         Intercom
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -101,7 +101,7 @@ const Footer = () => {
                     About
                   </p>
                   <ul>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0  "
@@ -109,7 +109,7 @@ const Footer = () => {
                         Our Blog
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0  "
@@ -117,7 +117,7 @@ const Footer = () => {
                         Customers
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0  "
@@ -125,7 +125,7 @@ const Footer = () => {
                         Our Team
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0  "
@@ -133,7 +133,7 @@ const Footer = () => {
                         Careers
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0  "
@@ -148,7 +148,7 @@ const Footer = () => {
                     Support
                   </p>
                   <ul>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -156,7 +156,7 @@ const Footer = () => {
                         Test Zoom
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -164,7 +164,7 @@ const Footer = () => {
                         Account{" "}
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -172,7 +172,7 @@ const Footer = () => {
                         Support Center
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -180,7 +180,7 @@ const Footer = () => {
                         Live Training
                       </a>
                     </li>
-                    <li className="pb-[15px]">
+                    <li className="sm:pb-[15px]">
                       <a
                         href=""
                         className="text-base font-normal font-ff-mon leading-[24px] not-italic text-[#A7A7A7] relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"

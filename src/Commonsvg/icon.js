@@ -330,7 +330,7 @@ export const Arrow_2 = () => {
     >
       <path
         d="M0.916748 21L10.9167 11L0.91675 0.999999"
-        stroke="white"
+        stroke="#010223"
         stroke-width="2"
       />
     </svg>

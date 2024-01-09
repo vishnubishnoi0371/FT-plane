@@ -12,7 +12,7 @@ const Memories = () => {
   }, []);
   return (
     <div id="memories">
-      <div className="max-w-[1200px] px-3 mx-auto sm:py-[50px] overflow-hidden">
+      <div className="max-w-[1200px] px-3 mx-auto py-[50px] overflow-hidden">
         <p className="text-[30px] sm:text-[40px] sm:pb-[40px] text-center text-[#011736] ff-mon font-bold sm:leading-[60px] tracking-[0.6px] capitalize not-italic self-stretch color">
           Make memories with us
         </p>
@@ -32,7 +32,7 @@ const Memories = () => {
             data-aos-duration="2000"
             className=" md:w-1/3 lg:w-1/4 xs:w-1/2 px-3  lg:pt-[50px]"
           >
-            <div className="rounded-[200px] img_border md:hover:scale-[110%]  duration-300 overflow-hidden mx-auto mt-4 sm:mt-0 relative max-w-[262px]">
+            <div className="rounded-[200px] img_border md:hover:scale-[110%]  duration-300 overflow-hidden mx-auto mt-0 relative max-w-[262px]">
               <img className="w-full h-full  " src={memories_2} alt="#" />
             </div>
           </div>

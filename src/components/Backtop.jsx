@@ -5,16 +5,13 @@ const Backtop = () => {
 
   const runTop = () => {
     document.documentElement.scrollTop = 0;
-    
   };
 
   window.addEventListener("scroll", () => {
     if (document.documentElement.scrollTop > 100) {
       setdowntop(true);
-      
     } else {
       setdowntop(false);
-      
     }
   });
   return (
