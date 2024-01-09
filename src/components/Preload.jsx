@@ -30,10 +30,15 @@ const PreLoad = () => {
         className="preloader min-h-full z-50 min-w-full flex items-center justify-center  bg-black fixed top-0 start-0"
         style={{ display: Load ? "none" : "block", zIndex: 10 }}
       >
-        <div data-aos="zoom-in">
-          <div className="flex items-center justify-center min-h-full">
-            <img className="w-[50%] h-[50%] mt-[200px]" src={Loadd} alt="#" />
-          </div>
+        <div class="waviy flex justify-center items-center m-auto h-screen">
+          <span className="--i:1">F</span>
+          <span className="--i:2">T</span>
+          <span className="--i:3">-</span>
+          <span className="--i:4">P</span>
+          <span className="--i:5">L</span>
+          <span className="--i:7">A</span>
+          <span className="--i:8">N</span>
+          <span className="--i:9">E</span>
         </div>
       </div>
     </div>

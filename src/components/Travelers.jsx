@@ -15,8 +15,8 @@ const Travelers = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <div className=" ">
-      <div className="max-w-[1200px] px-3 mx-auto sm:py-[50px] ">
+    <div className="overflow-hidden ">
+      <div className="max-w-[1200px] px-3 mx-auto md:mb-[30px] sm:py-[50px] ">
         <p className="text-[30px] sm:text[40px] sm:pb-[40px] text-center text-[#011736] ff-mon font-bold sm:leading-[60px] tracking-[0.6px] capitalize not-italic self-stretch color">
           Best travelars of this month{" "}
         </p>

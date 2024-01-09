@@ -54,7 +54,7 @@ const Feedslide = () => {
   };
 
   return (
-    <div className=" max-w-[1200px] px-3 my-[40px] xs:mt-[60px] md:mt-[80px] lg:mt-[100px] mx-auto">
+    <div className=" max-w-[1200px] px-3 mb-[40px] xs:mt-[60px] md:mt-[80px] lg:mt-[100px] mx-auto">
       <p
         className=" text-[#313EF7] text-center font-ff-mont text-[20px] font-semibold leading-[normal] xs:leading-[24px]"
         data-aos="fade-up"
